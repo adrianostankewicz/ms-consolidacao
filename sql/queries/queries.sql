@@ -1,30 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-devfullcycle
-/
-imersao11
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-imersao11/ms-consolidacao/sql/queries/queries.sql
-@wesleywillians
-wesleywillians aula2
-Latest commit 6098e91 yesterday
- History
- 1 contributor
-74 lines (50 sloc)  2.16 KB
-
 -- name: CreateAction :exec
 INSERT INTO actions (id, match_id, team_id, player_id, action, score, minute) VALUES (?, ?, ?, ?, ?, ?,?);
 
@@ -99,18 +72,3 @@ SELECT score as balance FROM my_team WHERE id = ?;
 
 -- name: UpdateMyTeamScore :exec
 UPDATE my_team SET score = ? WHERE id = ?;
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-imersao11/queries.sql at main · devfullcycle/imersao11 · GitHub
